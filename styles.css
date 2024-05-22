@@ -1,0 +1,177 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#start-button-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-game {
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+}
+
+#start_container {
+    border: 2px solid black;
+    position: relative;
+    width: 912px;
+    height: 680px;
+}
+
+#start_screen {
+    width: 100%;
+    height: 100%;
+}
+
+.commander {
+    height: 50%;
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.commander:hover {
+    border: 4px solid white;
+}
+
+#commander_1 {
+    left: 100px;
+    background-color: red;
+}
+
+#commander_2 {
+    left: 220px;
+    background-color: blue;
+}
+
+#commander_3 {
+    left: 340px;
+    background-color: green;
+}
+
+#commander_4 {
+    left: 460px;
+    background-color: gold;
+}
+
+#backpack_visual_1 {
+    height: 150px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+#backpack_visual_2 {
+    height: 200px;
+    width: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+#backpack_visual_3 {
+    height: 0px;
+    width: 0px;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 175px solid green;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+#backpack_visual_4 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: gold;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.menu_button {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 12px 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.menu_button:hover {
+    background-color: rgb(114, 114, 114);
+}
+
+#new_game_button {
+    top: 150px;
+}
+
+#customize_button {
+    top: 250px;
+}
+
+#settings_button {
+    top: 350px;
+}
+
+#quit_game_button {
+    top: 450px;
+}
+
+#settings_container{
+    position: absolute;
+}
+
+#settings_screen{
+    border: 1px solid black;
+    position: relative;
+    background-color: white;
+    z-index: 2;
+}
+
+#settings_menu_close{
+    z-index:2;
+    top: 25px;
+    left: 25px;
+}
+
+#customize_container {
+    position: absolute;
+}
+
+#customize_screen {
+    border: 1px solid black;
+    position: relative;
+    background-color: white;
+    z-index: 2;
+}
+
+#customize_menu_close {
+    z-index: 2;
+    top: 25px;
+    left: 25px;
+    font-size: 1.1em !important;
+}
