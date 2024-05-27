@@ -34,7 +34,7 @@ html, body {
     height: 100%;
 }
 
-.commander {
+.commander_select {
     height: 50%;
     width: 100px;
     position: absolute;
@@ -43,8 +43,15 @@ html, body {
     transition: background-color 0.3s;
 }
 
-.commander:hover {
+.commander_select:hover {
     border: 4px solid white;
+}
+
+.commander {
+    height: 50%;
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
 }
 
 #commander_1 {
